@@ -1,23 +1,74 @@
 /* Challenge 8: Change the type of font to Arial for all elements */
+*{
+    font-family:Arial;
+    text-style:
+}
+p {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px auto; 
 
-/* Challenge 9: Change the background color for all elements with a class of banner.  Choose a color
+    /* Change your width rule to this */
+    width: 100%;
+}
+/* Challenge 9: Change the background color for all elements with a id of banner.  Choose a color
                 using rgb( )
 */
-
+#banner{
+    background-color:rgba(192, 167, 85, 0.897);
+    width:80%   
+    max-width:800px; 
+}
 /* Challenge 10: Change the background color for all elements with a class of subbanner.  Choose a color
                 using a hexdecimal value. 
 */
-
+.subbanner{
+    background-color:#a30909;
+    width:80%   
+    max-width:800px; 
+}
 /* Challenge 11: Change the radius of the border to 6px and height to 200px for all images inside of all 
                  elements with a class of gallery 
 */
-
+.gallery{
+    border-radius:6xp;
+    height:200px;
+}
 /* Challenge 12: When the visitor moves their mouse over images inside of the element with an id of firstGallery,
                  apply some type of styling using the filter( ) effect
 */
-
+#firstGallery img:hover{
+    opacity:0.8;
+    transform: scale(1.05);
+}
 /* Challenge 13: When the visitor moves their mouse over images inside of the element with an id of secondGallery,
                  apply some other type of styling.
 */
+#secondgallery img{
+    transition:tranform 0.5s ease
+}
 
+#secondGallery img:hover{
+    transform:scale(1.05) rotate(1deg);
+    filter:brightnes(1.2) contrast(1.1);
+}
 /* Challenge 14: Change the transition for all elements to 1 second */
+
+*{
+    transition: 1s;
+}
+
+body{
+    background-color:black;
+}
+
+body {
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+
